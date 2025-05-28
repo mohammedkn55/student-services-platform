@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "appId": "com.studentservices.app",
+      "root": ".",
+      "iosPath": "ios/App"
+    }
+  ]
+}
