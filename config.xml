@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.studentservices.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>منصة خدمات الطلاب</name>
+    <description>
+        منصة ديناميكية ثنائية اللغة تربط الطلاب بمقدمي الخدمات
+    </description>
+    <author email="info@studentservices.com" href="https://studentservices.com">
+        فريق منصة خدمات الطلاب
+    </author>
+    
+    <!-- تطبيق مغلف للموقع -->
+    <content src="https://fffa7ee9-350a-4a19-993c-e22d58579b9a-00-2yirup69u78r1.kirk.replit.dev" />
+    
+    <!-- الإعدادات العامة -->
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#8b5cf6" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="Fullscreen" value="false" />
+    
+    <!-- إعدادات iOS -->
+    <platform name="ios">
+        <preference name="DisallowOverscroll" value="true" />
+        <preference name="EnableViewportScale" value="false" />
+        <preference name="MediaPlaybackRequiresUserAction" value="false" />
+        <preference name="AllowInlineMediaPlayback" value="true" />
+        <preference name="BackupWebStorage" value="cloud" />
+        <preference name="TopActivityIndicator" value="gray" />
+        <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+        <preference name="SuppressesIncrementalRendering" value="false" />
+        <preference name="GapBetweenPages" value="0" />
+        <preference name="PageLength" value="0" />
+        <preference name="PaginationBreakingMode" value="page" />
+        <preference name="PaginationMode" value="unpaginated" />
+        
+        <!-- أيقونات iOS -->
+        <icon src="client/public/icons/icon-57x57.png" width="57" height="57" />
+        <icon src="client/public/icons/icon-72x72.png" width="72" height="72" />
+        <icon src="client/public/icons/icon-76x76.png" width="76" height="76" />
+        <icon src="client/public/icons/icon-120x120.png" width="120" height="120" />
+        <icon src="client/public/icons/icon-152x152.png" width="152" height="152" />
+        <icon src="client/public/icons/icon-180x180.png" width="180" height="180" />
+        <icon src="client/public/icons/icon-192x192.png" width="192" height="192" />
+        <icon src="client/public/icons/icon-512x512.png" width="512" height="512" />
+    </platform>
+    
+    <!-- Splash Screen -->
+    <gap:splash src="client/public/icons/splash-320x480.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="client/public/icons/splash-768x1024.png" gap:platform="ios" width="768" height="1024" />
+    
+    <!-- الصلاحيات -->
+    <feature name="http://api.phonegap.com/1.0/network" />
+    <feature name="http://api.phonegap.com/1.0/notification" />
+    
+    <!-- الأمان -->
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="https://fffa7ee9-350a-4a19-993c-e22d58579b9a-00-2yirup69u78r1.kirk.replit.dev/*" />
+</widget>

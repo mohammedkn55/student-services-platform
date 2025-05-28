@@ -1,0 +1,8 @@
+{
+  "name": "منصة خدمات الطلاب",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "student-services-platform"
+}
