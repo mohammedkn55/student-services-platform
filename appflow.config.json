@@ -1,9 +1,17 @@
 {
+  "name": "منصة خدمات الطلاب",
+  "type": "capacitor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "platforms": ["ios"],
   "apps": [
     {
       "appId": "com.studentservices.app",
       "root": ".",
-      "iosPath": "ios/App"
+      "webDir": "client/dist",
+      "iosPath": "ios/App",
+      "build": "npm run build"
     }
   ]
 }
