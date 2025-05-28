@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.studentservices.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
+    <name>منصة خدمات الطلاب</name>
+    <description>منصة ديناميكية ثنائية اللغة تربط الطلاب بمقدمي الخدمات</description>
+    
+    <!-- نقطة البداية - موقعك مباشرة -->
+    <content src="https://fffa7ee9-350a-4a19-993c-e22d58579b9a-00-2yirup69u78r1.kirk.replit.dev" />
+    
+    <!-- إعدادات التطبيق -->
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    
+    <!-- أيقونة التطبيق -->
+    <icon src="icon.png" />
+    
+    <!-- الصلاحيات -->
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+</widget>
